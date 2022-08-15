@@ -1,0 +1,14 @@
+server:
+  port: 9091
+  servlet:
+    context-path: /
+spring:
+  multipart:
+    enabled: true
+    file-size-threshold: 0
+    max-file-size: 100Mb
+    max-request-size: 100Mb
+  application:
+    name: activiti-boot-master
+  profiles:
+    active: dev
